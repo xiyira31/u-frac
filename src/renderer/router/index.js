@@ -18,6 +18,56 @@ export default new Router({
     {
       path: '*',
       redirect: '/'
+    },
+    {
+      path: '/bigData',
+      name: 'bigData',
+      component: require('@/components/bigData/index')
+    },
+    {
+      path: '/design',
+      name: 'design',
+      component: require('@/components/design/index')
+    },
+    {
+      path: '/earth',
+      name: 'earth',
+      component: require('@/components/earth/index')
+    },
+    {
+      path: '/eco',
+      name: 'eco',
+      component: require('@/components/eco/index')
+    },
+    {
+      path: '/eval',
+      name: 'eval',
+      component: require('@/components/eval/index')
+    },
+    {
+      path: '/forecast',
+      name: 'forecast',
+      component: require('@/components/forecast/index')
+    },
+    {
+      path: '/fracs',
+      name: 'fracs',
+      component: require('@/components/fracs/index')
+    },
+    {
+      path: '/layer',
+      name: 'layer',
+      component: require('@/components/layer/index')
+    },
+    {
+      path: '/optim',
+      name: 'optim',
+      component: require('@/components/optim/index')
+    },
+    {
+      path: '/safety',
+      name: 'safety',
+      component: require('@/components/safety/index')
     }
   ]
 })
