@@ -100,7 +100,7 @@
         { icon: 'insert_chart', title: '储层评价', to: '/layer' },
         { icon: 'merge_type', title: '裂缝扩展', to: '/fracs' },
         { icon: 'trending_up', title: '产能预测', to: '/forecast' },
-        { icon: 'info_outline', title: '安全评估', to: '/safty' },
+        { icon: 'info_outline', title: '安全评估', to: '/safety' },
         { icon: 'attach_money', title: '经济评估', to: '/eco' },
         { icon: 'assignment_turned_in', title: '优化设计', to: '/optim' },
         { icon: 'schedule', title: '实时决策', to: '/design' },
