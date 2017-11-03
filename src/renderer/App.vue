@@ -95,11 +95,11 @@
       drawer: true,
       fixed: false,
       items: [
-        { icon: 'bubble_chart', title: '大数据分析', to: '/data' },
+        { icon: 'bubble_chart', title: '大数据分析', to: '/bigData' },
         { icon: 'line_style', title: '地质模型', to: '/earth' },
         { icon: 'insert_chart', title: '储层评价', to: '/layer' },
         { icon: 'merge_type', title: '裂缝扩展', to: '/fracs' },
-        { icon: 'trending_up', title: '产能预测', to: '/popu' },
+        { icon: 'trending_up', title: '产能预测', to: '/forecast' },
         { icon: 'info_outline', title: '安全评估', to: '/safty' },
         { icon: 'attach_money', title: '经济评估', to: '/eco' },
         { icon: 'assignment_turned_in', title: '优化设计', to: '/optim' },
