@@ -16,6 +16,7 @@
             :key="i"
             v-for="(item, i) in items"
             exact
+            @click="breadChange(item)"
           >
             <v-list-tile-action>
               <v-icon v-html="item.icon"></v-icon>
@@ -47,6 +48,7 @@
           <v-icon>remove</v-icon>
         </v-btn>
         <v-toolbar-title v-text="title"></v-toolbar-title>
+        <v-toolbar-title v-text="subTitle"></v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn
           icon
@@ -81,7 +83,7 @@
       </v-navigation-drawer>
       <v-footer :fixed="fixed" app>
         <v-spacer></v-spacer>
-        <span>&copy; 2017</span>
+        <span>中国石油集团川庆钻探工程有限公司井下作业公司&copy; 2017</span>
       </v-footer>
     </v-app>
   </div>
@@ -109,8 +111,14 @@
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'U-Frac'
-    })
+      title: 'U-Frac',
+      subTitle: ''
+    }),
+    methods: {
+      breadChange: function (item) {
+        this.subTitle = item.title
+      }
+    }
   }
 </script>
 
