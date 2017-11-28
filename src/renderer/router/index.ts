@@ -22,7 +22,7 @@ export default new Router({
     {
       path: '/bigData',
       name: 'bigData',
-      component: require('@/components/bigData/index')
+      component: require('@/components/bigData/index.vue')
     },
     {
       path: '/design',
